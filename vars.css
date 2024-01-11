@@ -1,0 +1,68 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --primary: #ef2779;
+  --secondary: #7834be;
+  --secondary: #38a3f1;
+  --text: #252b42;
+  --secondtext: #374754;
+  --lighttext: #ffffff;
+  --darkbackground: #252b42;
+  --lightbackground: #ffffff;
+  --background-gradient: linear-gradient(
+    39.97deg,
+    rgba(239, 39, 121, 1) 0%,
+    rgba(120, 52, 190, 1) 100%
+  );
+
+  /* Fonts */
+  --h-1-font-family: Roboto-Black, sans-serif;
+  --h-1-font-size: 55px;
+  --h-1-line-height: 65.5px;
+  --h-1-font-weight: 900;
+  --h-1-font-style: normal;
+  --h-2-font-family: Roboto-Regular, sans-serif;
+  --h-2-font-size: 46px;
+  --h-2-line-height: 57px;
+  --h-2-font-weight: 400;
+  --h-2-font-style: normal;
+  --h-3-font-family: Roboto-Bold, sans-serif;
+  --h-3-font-size: 22px;
+  --h-3-line-height: 33px;
+  --h-3-font-weight: 700;
+  --h-3-font-style: normal;
+  --h-4-font-family: Roboto-Bold, sans-serif;
+  --h-4-font-size: 16px;
+  --h-4-line-height: 20px;
+  --h-4-font-weight: 700;
+  --h-4-font-style: normal;
+  --h-5-font-family: Roboto-Bold, sans-serif;
+  --h-5-font-size: 12px;
+  --h-5-line-height: 18px;
+  --h-5-font-weight: 700;
+  --h-5-font-style: normal;
+  --button-font-family: Roboto-Medium, sans-serif;
+  --button-font-size: 16px;
+  --button-line-height: 16px;
+  --button-font-weight: 500;
+  --button-font-style: normal;
+  --paragraphe-font-family: Roboto-Regular, sans-serif;
+  --paragraphe-font-size: 18px;
+  --paragraphe-line-height: 27px;
+  --paragraphe-font-weight: 400;
+  --paragraphe-font-style: normal;
+  --link-font-family: Roboto-Regular, sans-serif;
+  --link-font-size: 15px;
+  --link-line-height: 27px;
+  --link-font-weight: 400;
+  --link-font-style: normal;
+  --mobile-menu-font-family: Roboto-Regular, sans-serif;
+  --mobile-menu-font-size: 30px;
+  --mobile-menu-line-height: 45px;
+  --mobile-menu-font-weight: 400;
+  --mobile-menu-font-style: normal;
+
+  /* Effects */
+  --shadow-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  --dramatic-box-shadow: -31px -22px 19px 0px rgba(0, 0, 0, 0.3);
+}
