@@ -85,8 +85,8 @@
 }
 .rectangle-4 {
   flex-shrink: 0;
-  width: 186px;
-  height: 58px;
+  width: 99px;
+  height: 100px;
   position: relative;
   object-fit: cover;
 }
