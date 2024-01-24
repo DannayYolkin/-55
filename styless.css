@@ -1,13 +1,12 @@
-@media (max-width: 480px) {
-  .right {
-    width: 480px;
-  }
-}
 .desktop-13,
 .desktop-13 * {
   box-sizing: border-box;
 }
-
+.form {
+  color: #d6ebff;
+  background: #38a3f1;
+  background-color: #dedede;
+}
 .desktop-13 {
   background: var(--darkbackground, #252b42);
   display: flex;
@@ -47,6 +46,7 @@
   top: 0%;
   height: 100%;
   overflow: visible;
+  top: -1;
 }
 .desktop-navbar {
   padding: 10px 30px 10px 30px;
@@ -138,7 +138,7 @@
   position: relative;
 }
 .product {
-  color: var(--lighttext, #ffffff);
+  color: var(--lighttext, #0e0b0b);
   text-align: center;
   font-family: var(--link-font-family, "Roboto-Regular", sans-serif);
   font-size: var(--link-font-size, 15px);
@@ -147,7 +147,7 @@
   position: relative;
 }
 .pricing {
-  color: var(--lighttext, #ffffff);
+  color: var(--lighttext, #000000);
   text-align: center;
   font-family: var(--link-font-family, "Roboto-Regular", sans-serif);
   font-size: var(--link-font-size, 15px);
@@ -192,10 +192,10 @@
   position: relative;
 }
 .input {
-  background: #efefef;
+  background: #0e0b0b;
   border-radius: 39px;
   border-style: solid;
-  border-color: #e8e8e8;
+  border-color: #ffffff;
   border-width: 1px;
   padding: 19px 39px 19px 39px;
   display: flex;
@@ -209,7 +209,7 @@
   overflow: hidden;
 }
 .your-email {
-  color: var(--background, #18171d);
+  color: var(--background, #ffffff);
   text-align: left;
   font-family: "Roboto-Regular", sans-serif;
   font-size: 14px;
@@ -415,6 +415,10 @@
   flex-shrink: 0;
   position: relative;
 }
+.form {
+  z-index: 3;
+}
+
 .master-button2 {
   background: var(--lighttext, #ffffff);
   border-radius: 35px;
